@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">CustomView</string>
+
+    <string name="lockscreen_transport_prev_description" msgid="6300840251218161534">"上一曲"</string>
+    <string name="lockscreen_transport_next_description" msgid="573285210424377338">"下一曲"</string>
+    <string name="lockscreen_transport_pause_description" msgid="3980308465056173363">"暂停"</string>
+    <string name="lockscreen_transport_play_description" msgid="1901258823643886401">"播放"</string>
+    <string name="lockscreen_transport_stop_description" msgid="5907083260651210034">"停止"</string>
+    <string name="lockscreen_transport_rew_description" msgid="6944412838651990410">"快退"</string>
+    <string name="lockscreen_transport_ffw_description" msgid="42987149870928985">"快进"</string>
+</resources>

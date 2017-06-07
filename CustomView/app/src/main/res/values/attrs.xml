@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="CustomTitleView">
+        <attr name="titleText" format="string" />
+        <attr name="titleTextLeft" format="string" />
+        <attr name="titleTextRight" format="string" />
+        <attr name="leftbuttonvisible" format="boolean" />
+        <attr name="rightbuttonvisible" format="boolean" />
+        <attr name="editbuttonvisible" format="boolean" />
+        <attr name="titleTextColor" format="color" />
+        <attr name="titleTextSize" format="color" />
+        <attr name="leftbuttonPic" format="reference" />
+        <attr name="rightbuttonPic" format="reference" />
+        <attr name="titlebuttonPic" format="reference" />
+        <attr name="editbuttonPic" format="reference" />
+        <attr name="titleBg" format="boolean" />
+        <attr name="titleBgColor" format="reference" />
+        <attr name="halvingvisible" format="boolean"/>
+        <attr name="halvingColor" format="color"/>
+          
+    </declare-styleable>
+    <declare-styleable name="RoundProgressBar">
+        <attr name="roundColor" format="color" />
+        <attr name="roundProgressColor" format="color" />
+        <attr name="roundWidth" format="dimension"></attr>
+        <attr name="textColor" format="color" />
+        <attr name="textSize" format="dimension" />
+        <attr name="max" format="integer"></attr>
+        <attr name="textIsDisplayable" format="boolean"></attr>
+        <attr name="style">
+            <enum name="STROKE" value="0"></enum>
+            <enum name="FILL" value="1"></enum>
+        </attr>
+    </declare-styleable>
+  
+<declare-styleable name="slideswitch">
+        <attr name="themeColor" format="color" />
+        <attr name="isOpen" format="boolean" />
+        <attr name="shape">
+            <enum name="rect" value="1" />
+            <enum name="circle" value="2" />
+        </attr>
+    </declare-styleable>
+    
+
+ <declare-styleable name="ProgressWheel">
+        <attr name="matProg_progressIndeterminate" format="boolean" />
+        <attr name="matProg_barColor" format="color" />
+        <attr name="matProg_rimColor" format="color" />
+        <attr name="matProg_rimWidth" format="dimension" />
+        <attr name="matProg_spinSpeed" format="float" />
+        <attr name="matProg_barSpinCycleTime" format="integer" />
+        <attr name="matProg_circleRadius" format="dimension" />
+        <attr name="matProg_fillRadius" format="boolean" />
+        <attr name="matProg_barWidth" format="dimension" />
+        <attr name="matProg_linearProgress" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="ArcProgress">
+        <attr name="arc_progress" format="integer"/>
+        <attr name="arc_angle" format="float"/>
+        <attr name="arc_stroke_width" format="dimension"/>
+        <attr name="arc_max" format="integer"/>
+
+        <attr name="arc_unfinished_color" format="color"/>
+        <attr name="arc_finished_color" format="color"/>
+
+        <attr name="arc_text_size" format="dimension"/>
+        <attr name="arc_text_color" format="color"/>
+
+        <attr name="arc_suffix_text" format="string"/>
+        <attr name="arc_suffix_text_size" format="dimension"/>
+        <attr name="arc_suffix_text_padding" format="dimension"/>
+
+        <attr name="arc_bottom_text" format="string"/>
+        <attr name="arc_bottom_text_size" format="dimension"/>
+    </declare-styleable>
+
+
+    <declare-styleable name="MyRippleLayout" >
+        <attr name="myRippleColor" format="color"/>
+        <attr name="myRippleStrokeWidth" format="dimension" />
+        <attr name="myRippleRadius" format="dimension" />
+        <attr name="myRippleDuration" format="integer" />
+        <attr name="myRippleNums" format="integer" />
+        <attr name="myRipplescale" format="float" />
+    </declare-styleable>
+
+    <!-- 自定义圆形进度条，属性设置 -->
+    <declare-styleable name="CustomCircleProgress">
+        <!-- 默认圆的颜色 -->
+        <attr name="progress_default_color" format="color"/>
+        <!-- 进度圆的颜色 -->
+        <attr name="progress_reached_color" format="color"/>
+        <!-- 进度条的高度 -->
+        <attr name="progress_reached_height" format="dimension"/>
+        <!-- 无进度时(默认圆)的边框高 -->
+        <attr name="progress_default_height" format="dimension"/>
+        <!-- 圆的半径 -->
+        <attr name="circle_radius" format="dimension"/>
+    </declare-styleable>
+
+</resources>
